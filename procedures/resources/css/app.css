@@ -1,0 +1,16 @@
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+/* (cu)stomize kit */
+.cu-badge-priority {
+    min-width: 10px;
+    height: 10px;
+    margin-right: 4px;
+}
+
+/* uikit */
+.uk-button {
+    border-radius: 4px;
+}
