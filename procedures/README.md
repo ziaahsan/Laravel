@@ -3,7 +3,7 @@
 Simply clone Laravel direcrtory and `npm install` inside the `procedures` directory. This will install required modules from node pacakge manager.
 Once installed you can perform `npm run watch` to see the build status and other errors regarding `Mix`.
 
-1. Lastly don't forget to import the .sql (perform `npm artisan migrate` to import the sql tables).
+1. Lastly don't forget to import the .sql (perform `php artisan migrate` to import the sql tables).
 2. Don't forget to change `.env`
 
 ```bash
@@ -16,6 +16,6 @@ npm artisan migrate
 npm run watch
 
 # Open another terminal and perform
-npm artisan serve
+php artisan serve
 ```
 ---
