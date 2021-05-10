@@ -19713,9 +19713,14 @@ var render = function() {
               _vm._v(_vm._s(item.title))
             ]),
             _vm._v(" "),
-            _c("p", { staticClass: "uk-margin-remove uk-text-small" }, [
-              _vm._v(_vm._s(item.message))
-            ]),
+            _c(
+              "p",
+              {
+                staticClass: "uk-margin-remove uk-text-small",
+                staticStyle: { "white-space": "pre-line" }
+              },
+              [_vm._v(_vm._s(item.message))]
+            ),
             _vm._v(" "),
             _c("div", [
               _vm._m(0, true),
@@ -19723,9 +19728,7 @@ var render = function() {
               _c("span", { staticClass: "uk-text-small" }, [
                 _vm._v(_vm._s(item.created_at))
               ])
-            ]),
-            _vm._v(" "),
-            _vm._m(1, true)
+            ])
           ]
         )
       }),
@@ -19741,16 +19744,6 @@ var staticRenderFns = [
     return _c("span", { staticClass: "uk-text-small" }, [
       _c("span", { staticClass: "uk-badge cu-badge-priority" }),
       _vm._v("Normal")
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "uk-margin-small-top uk-text-center" }, [
-      _c("a", { staticClass: "uk-link uk-text-small", attrs: { href: "#" } }, [
-        _vm._v("Show Procedure")
-      ])
     ])
   }
 ]
